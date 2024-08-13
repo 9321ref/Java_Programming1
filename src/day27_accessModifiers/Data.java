@@ -1,0 +1,27 @@
+package day27_accessModifiers;
+
+public class Data {
+
+    public int a, b, c;
+
+    public static int d, e, f;
+
+    public void method1(){ // instance method
+        System.out.println("Method1");
+    }
+
+    public void method2(){ // instance method
+        System.out.println("Method2");
+    }
+
+    public static void method3(){
+        System.out.println("Method3");
+    }
+
+    public static void method4(){
+        System.out.println("Method4");
+    }
+
+}
+
+
