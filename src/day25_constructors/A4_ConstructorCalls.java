@@ -4,7 +4,7 @@ public class A4_ConstructorCalls {
 
 
     public A4_ConstructorCalls(){
-    // this(9); --> Constructors can not call or contain itself
+        //this(9);// -->Constructors cannot call or contain itself
         System.out.println("Default constructor");
     }
 
@@ -25,7 +25,7 @@ public class A4_ConstructorCalls {
     public A4_ConstructorCalls(String c){
        this(2.5);
 
-       // this(); --> COMPILE ERROR one constructor it can not call more than one constructor in its BODY
+       // this(); --> COMPILE ERROR one constructor it cannot call more than one constructor in its BODY
         System.out.println("Constructor with String argument");
     }
 
@@ -50,7 +50,7 @@ public class A4_ConstructorCalls {
 
     // regular method/instance method, they can call each other
     public static void method1(){
-       // A4_ConstructorCalls(); --> compile error because constructors can not be called by its name
+       // A4_ConstructorCalls(); --> compile error because constructors cannot be called by its name
        // this(); -->
         System.out.println("Method 1");
     }

@@ -6,11 +6,11 @@ public class GarbageCollection {
 
     public static void main(String[] args) {
 
-        //Garbage Collection makes all process automatically
+        //Garbage Collection makes all processes automatically
 
-        String a = ""; // this is object
+        String a = ""; // this is an object
         String s1 = "Java";
-        s1 = null; // reference null this is not object , "Java" will be eligible for garbage collection. (java delete).
+        s1 = null; // reference null this is not an object, "Java" will be eligible for garbage collection. (java delete).
 
         System.out.println(s1);
 
@@ -20,7 +20,7 @@ public class GarbageCollection {
            str1 = "Cydeo";
 
         System.out.println(str1);// cydeo --> garbage collection delete "python"
-                        // because str1 reference by or reassigning new object " Cydeo"
+                        // because str1 reference by or reassigning a new object "Cydeo"
 
         System.out.println("----------------------------------------------");
 

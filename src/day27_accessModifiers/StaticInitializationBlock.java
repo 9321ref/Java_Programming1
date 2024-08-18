@@ -15,7 +15,7 @@ public class StaticInitializationBlock {
         // Genellikle sınıfın statik değişkenlerini başlatmak veya yükleme işlemleri yapmak için kullanılır.
         // initialize static variables you can use only static block.best choose is initializing the static is static block.
 
-        //for instance variables best choose is Constructor for initializing
+        //for instance variable, best choose is Constructor for initializing
     }
 
 /*
@@ -28,16 +28,14 @@ public class StaticInitializationBlock {
    you should not be used ANY method to initialize the static variables
  */
 
-/*
-    public StaticInitializationBlock(){ // --> constructors
-
-        a = 100;
-        b = 20.5;
-        c = "Java";
-    }//Constructor can not be executed through the Class name directly.Only execute when you create the Object.but it is not good option
-     // new StaticInitializationBlock();
-    //there for static never should initialize with constructor
-}
- */
+//     public StaticInitializationBlock(){ // --> constructors
+//
+//         a = 100;
+//         b = 20.5;
+//         c = "Java";
+//     }//Constructor cannot be executed through the Class name directly.Only execute when you create the Object.but it is not a good option
+//      // new StaticInitializationBlock();
+//     //there for static never should initialize with constructor
+// }
 
 }

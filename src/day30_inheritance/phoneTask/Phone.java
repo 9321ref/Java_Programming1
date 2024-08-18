@@ -14,7 +14,7 @@ public class Phone {
         setSize(size);
         setPrice(price);
         setColor(color);
-    } //private oln instance variable get method ile classta cagirabiliriz.direk constructor get methodu oladan cagrilmaz private
+    } //private oln instance variable get method ile classta cagirabiliriz.direk constructor get methodu olmadan cagrilmaz private
 
     public String getBrand() {
         return brand;

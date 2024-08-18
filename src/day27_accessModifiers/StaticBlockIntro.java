@@ -5,7 +5,7 @@ public class StaticBlockIntro {
    public StaticBlockIntro(){
        System.out.println("Constructors");
    }//"Using Constructors for initializing instance variables
-    // because each object could have separate copy of instance variables
+    // because each object could have seperate copy of instance variables
 
     public static void main(String[] args) {
         System.out.println("Main Method");
@@ -17,7 +17,7 @@ public class StaticBlockIntro {
     }
 
     static{
-        System.out.println("Static Block"); // used for code execution ,Whether it comes before or after the main method does not matter; the static block executes first.
+        System.out.println("Static Block"); // used for code execution, Whether it comes before or after the main method does not matter; the static block executes first.
     }                                       // static block accept just static variable
 }
 /*

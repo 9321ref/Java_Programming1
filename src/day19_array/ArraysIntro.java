@@ -22,10 +22,11 @@ public class ArraysIntro {
         scores[3] = 88;
         scores[4] = 95;
 
-          //scores[5] = 100; ArrayIndexOutOfBoundException : index 5 out bounds for length 5.
+          //scores[5] = 100; ArrayIndexOutOfBoundException: index 5 outbounds for length 5.
 
          // scores = new int[10]; // yeni deger atamak istersek yeni array olusturabilirsin index: 0 ~ 9
-                             //   int[] scores = new int[5]; --> eligible for garbage collection.
+                               //int[]scores = new int[5]; //--> eligible for garbage collection.
+
         //   scores = new int[50]; // index : 0 ~ 49 (artik yeni arrayimiz bu diger önce ki ikisi cöp)
 
 
