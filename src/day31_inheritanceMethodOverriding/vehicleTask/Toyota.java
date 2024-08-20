@@ -1,4 +1,4 @@
-package day31_inheritance.vehicleTask;
+package day31_inheritanceMethodOverriding.vehicleTask;
 
 public class Toyota extends Car{
     public Toyota(String brand, String model, String color, int year, double price) {

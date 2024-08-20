@@ -1,4 +1,4 @@
-package day31_inheritance.vehicleTask;
+package day31_inheritanceMethodOverriding.vehicleTask;
 
 public class Vehicle {
 

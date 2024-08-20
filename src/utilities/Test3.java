@@ -1,6 +1,6 @@
 package utilities;
 
-import day31_inheritance.ProtectedAccessModifier;
+import day31_inheritanceMethodOverriding.ProtectedAccessModifier;
 
 public class Test3 extends ProtectedAccessModifier{
 

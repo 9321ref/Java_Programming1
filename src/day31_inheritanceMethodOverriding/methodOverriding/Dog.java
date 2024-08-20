@@ -1,4 +1,4 @@
-package day31_inheritance.methodOverriding;
+package day31_inheritanceMethodOverriding.methodOverriding;
 
 public class Dog extends Animal {
 

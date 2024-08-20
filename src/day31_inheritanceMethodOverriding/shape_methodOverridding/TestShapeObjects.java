@@ -1,4 +1,4 @@
-package day31_inheritance.shape_methodOverridding;
+package day31_inheritanceMethodOverriding.shape_methodOverridding;
 
 public class TestShapeObjects {
 
