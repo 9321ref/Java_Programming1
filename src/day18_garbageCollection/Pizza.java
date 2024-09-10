@@ -41,7 +41,7 @@ public class Pizza {
 
 
 
-// bu method olmazsa object class icinde
+// bu method olmazsa object class icinde,
 // hash code grünür .burada bunu declare edilmeli
     public String toString() {
         return "PizzaCustomClassEx{" +

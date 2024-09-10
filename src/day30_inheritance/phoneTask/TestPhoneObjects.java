@@ -30,5 +30,9 @@ public class TestPhoneObjects {
         System.out.println(samsung);
         System.out.println(nokia);
         System.out.println(nokia.getSize());
+
+        System.out.println("----------------------------------------------------------------");
+
+
     }
 }

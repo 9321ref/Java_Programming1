@@ -1,0 +1,28 @@
+
+		2. throws keyword: used for handling checked exceptions ONLY
+
+						caller of the method will be responsible for handling the exception
+
+
+
+throw: used for manually throwing exception
+
+		syntax:
+			throw exceptionObject
+
+
+
+
+
+Custom Exception:
+	1. how to create custom unchecked exception?
+			by inheriting from RuntimeException class
+
+	2. how to create custom checked exception?
+			by inheriting from Exception class
+
+
+
+throws keyword is Not Utility method ,utility method usually you will call them in other places to use it.just it handle fastly or find
+compile error.temporary solution .we can not call
+advantage is, you dont need block to get rid of error.just one keyword

@@ -10,7 +10,6 @@ public class Circle {
         setRadius(radius);
     }
 
-
     public double getRadius(){
         return radius;
     }
@@ -42,6 +41,19 @@ public class Circle {
                 '}';
     }
 }
+/*
+Constructor kullanmamızın başlıca sebepleri şunlardır:
+
+Nesneyi Başlatmak (Initialize): Constructor, sınıfın yeni bir örneği oluşturulduğunda (örneğin new Circle() kullanarak) nesnenin durumunu (state) başlatır.
+Bu, üye değişkenlere başlangıç değerleri atamak anlamına gelir.
+Örneğin, radius değişkenine bir başlangıç değeri vermek için constructor kullanılır.
+
+Zorunlu Bilgileri Almak: Constructor, bir nesnenin oluşturulması sırasında gerekli olan bilgileri almayı sağlar. Örneğin,
+Circle sınıfını oluştururken radius bilgisi olmadan bir Circle nesnesi anlamlı olmaz.
+Constructor bu bilgiyi alarak nesneyi tam ve geçerli bir durumda başlatır.
+ */
+
+
 /*
 1. Create a custom class named Circle with the following specifications:
 

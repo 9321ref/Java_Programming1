@@ -1,0 +1,33 @@
+
+Abstract class vs interface:     both are used for achieving abstraction
+			 both can not be instantiated
+			 both are meant to be inherited
+			 both can not be final
+
+
+
+			abstract class: one class can extends one abstract class ONLY
+
+			                   instance & statics both are supported
+
+			                   constructor
+
+			                  4 access modifiers are supported
+
+
+			 interface: one class can implement multiple interfaces
+
+
+
+
+extends vs implements:
+
+		extends:
+			class extends class
+			interface extends interface(s)
+
+		implements:
+			class implements interface(s)
+
+		extends & implements:
+				extends first then implements

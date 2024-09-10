@@ -14,6 +14,7 @@ public class TestEmployeeObjects {
         Driver driver = new Driver("Cevdet",60,"C18",'M',5000,"Driver");
 
         Developer developer = new Developer("Ahmet",33,"A23",'M',6000,"Developer","Java");
+
         System.out.println(tester);
         System.out.println(teacher);
         System.out.println(driver);
