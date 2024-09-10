@@ -1,0 +1,45 @@
+Animal task:
+	interface Swimmable
+		swim()
+
+	interface Flyable
+			fly();
+
+	interface Wild:
+			hunt();
+
+	interface Plyable
+			play();
+
+
+	abstractClass Animal:
+		eat();
+		drink();
+
+
+
+	Dog extend Animal implements Playable, Swimmable
+
+	Cat extend Animal implements Playable
+
+	Cow extend Animal implements Playable
+
+	Horse extend Animal implements Playable
+
+	Parrot extend Animal implements Playable, Flyable
+
+	Eagle extend Animal implements Wild, Flyable
+
+	Tiger extend Animal implements Wild
+
+	Lion extend Animal implements Wild
+
+	Falcon extend Animal implements Wild, Flyable
+
+	Shark extend Animal implements Wild, Swimmable
+
+	Dolphin extend Animal implements Playable, Swimmable
+
+	Duck extend Animal implements Playable, Swimmable, Flyable
+
+	Java extend Animal implements Playable, Swimmable, Flyable, Wild

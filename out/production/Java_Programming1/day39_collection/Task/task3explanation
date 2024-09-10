@@ -1,0 +1,23 @@
+
+
+
+
+1) p -> (Lambda ifadesi): Bu, removeIf metoduna verilen bir lambda ifadesidir. Lambda ifadesi, her bir öğeyi tek tek alarak bir koşul uygular.
+Buradaki p, list koleksiyonundaki her bir öğeyi temsil eder.
+
+2) Collections.frequency(list, p): Bu metod, verilen list içinde, p öğesinin kaç kez tekrar ettiğini kontrol eder. Yani, list içinde p kaç defa bulunuyor diye sayar.
+
+3) < 2 koşulu: Bu koşul, bir öğe listede 2'den az sayıda varsa, yani yalnızca bir defa geçiyorsa, o öğenin silinmesi gerektiğini belirtir.
+Eğer Collections.frequency(list, p) < 2 koşulu doğruysa, yani öğe listede 1 kez bulunuyorsa, removeIf o öğeyi listeden çıkarır.
+
+Genel Mantık:
+Bu satır, listede birden fazla (yani en az 2) kez bulunmayan öğeleri çıkarır. Sonuç olarak, sadece birden fazla tekrar eden öğeler listede kalır.
+
+Özetle, bu removeIf işlemiyle list'ten sadece 1 kez bulunan elemanlar silinir ve tekrarlayanlar korunur.
+
+
+
+
+
+
+
