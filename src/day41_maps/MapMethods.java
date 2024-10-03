@@ -48,7 +48,7 @@ pair: id - name
 
         System.out.println(map.isEmpty());
         System.out.println(map.equals(map)); // true
-        System.out.println(map.equals("A05")); //false
+        System.out.println(map.equals("A06")); //false
 
 
         map.clear(); // {}

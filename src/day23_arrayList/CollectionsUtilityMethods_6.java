@@ -2,12 +2,11 @@ package day23_arrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
 import static java.util.Collections.*;
 
-public class A6CollectionsUtilityMethods {
+public class CollectionsUtilityMethods_6 {
 
  public static void main(String[] args) {
 

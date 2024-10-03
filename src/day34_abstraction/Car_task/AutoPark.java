@@ -6,7 +6,7 @@ public interface AutoPark {
     boolean hasAutoPark = true;  //this variable static & final by default.
 
     //Abstract method
-    void autoPark(); // abstract ics given by default
+    void autoPark(); // abstract is given by default
 
 
 }

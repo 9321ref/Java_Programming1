@@ -18,8 +18,6 @@ Abstract class vs interface:     both are used for achieving abstraction
 			 interface: one class can implement multiple interfaces
 
 
-
-
 extends vs implements:
 
 		extends:
@@ -31,3 +29,57 @@ extends vs implements:
 
 		extends & implements:
 				extends first then implements
+
+----------------------------------------------------------------------
+Interface
+
+	interface is NOT a class. An interface is a blueprint for a class
+		- Cannot be instantiated
+
+	Allows creation of abstract method
+		any method declared is public abstract automatically
+
+	implementing an interface creates an is a relation
+		implements keyword is used to inherit the abstract methods from the interface
+
+	everything uses public access modifier automatically
+
+	variables: any variable declared is public static final automatically (constant variable)
+		-> interface do not have any instance variables
+
+What does an interface have
+	constant variables, abstract methods, static methods, default methods
+
+What does an interface NOT have
+	instance variables, instance methods, constructor, blocks of code (static block)
+
+Q: Can we have any non-abstract methods in interface?
+Q: Can we have any methods with implementation/code block in interface?
+	-> these two questions ask about the same concept
+
+	static and default methods allow creation of methods that have implementation
+
+	static: a method with code body and it is accessed by the interface name
+		-> these methods are not inherited
+
+	default: a method with a code body and it is accessed by the object of the class that is implementing the interface
+
+		instance level for the class that implements
+
+		-> this is not the default access modifier. It is a keyword for these methods. Default methods are only created in interface
+
+Inheritance with interface
+
+	interface is not a class, which means it doesn't follow all the same rules
+
+		-> classes can only have one parent, but interface doesn't need follow that
+
+		- a class can implement as many interfaces as needed
+		- an interface can inherit as many interfaces as needed
+
+How to use the interfaces
+
+	class --> class: extends
+	interface --> class: implements
+	interface --> interface: extends
+____________________________________________

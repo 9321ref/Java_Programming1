@@ -2,7 +2,7 @@ package day23_arrayList;
 
 import java.util.ArrayList;
 
-public class A2UniqueElements {
+public class UniqueElements_2 {
 
     public static void main(String[] args) {
 

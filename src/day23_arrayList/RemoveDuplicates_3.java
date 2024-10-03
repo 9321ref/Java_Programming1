@@ -2,7 +2,7 @@ package day23_arrayList;
 
 import java.util.ArrayList;
 
-public class A3RemoveDuplicates {
+public class RemoveDuplicates_3 {
 
     public static void main (String [] args){
 

@@ -1,0 +1,54 @@
+Abstraction
+
+	concept for hiding implementation. Allow us to focus on WHAT the functionality is (action/method), but not worry about HOW its done (implementation)
+
+	abstraction does not work without inheritance
+
+	implementation: the function of the code, how the code achieves the result
+
+in java there is two ways to achieve abstraction with abstract methods:
+	abstract class
+	interface
+
+	abstract methods
+
+		a method without any implementation (a method with no code body)
+			ex:
+			public abstract void rotate();
+
+		-> these methods must be overridden in the sub classes at some point
+
+	concrete class: first non-abstract class (normal class). This class must implement all abstract that are inherited
+__________________________________________________________________
+
+Abstract Class
+
+	a class that is defined with the abstract keyword
+
+		ex: public abstract class Planet {}
+
+	-> an abstract class is able to define abstract methods
+	-> this class cannot instantiated (cannot create objects from this class)
+
+	everything else about the classes is the same
+
+Q: Can you make non abstracts methods in an abstract class
+	yes, you can make instance methods or static methods
+
+Q: Can you have an abstract class without any abstract methods
+	yes, you are allowed to create abstract methods, but it doesn't require you to make any
+
+Difference between normal class & abstract class
+
+	both: instance & static methods, variables, constructors
+
+	abstract class:
+		cannot make objects of the class
+		can make abstract method
+		cannot be final
+
+	normal class:
+		create objects of the class
+		cannot create abstract methods
+		can be final
+____________________________________________________________

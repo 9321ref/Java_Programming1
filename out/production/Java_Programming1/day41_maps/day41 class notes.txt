@@ -9,7 +9,7 @@ Array vs Collection: both supports non primitives
 		
 		Array: Size is fixed
 			   Supports both primitives & non-primitives
-			   Can be mult-dimensional
+			   Can be multi-dimensional
 
 			   Faster than Collection
 

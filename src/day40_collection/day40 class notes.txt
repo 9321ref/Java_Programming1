@@ -26,9 +26,9 @@ Collection (I): size is dynamic, supports non-primitives ONLY
 							 pop(): returns & removes the last inserted object from the Stack
 
 
-		2. Set (I): Does not have index number, Does not allow duplcaites
+		2. Set (I): Does not have index number, Does not allow duplicates
 
-				2.1 HashSet (C): Order is random, aceespts null
+				2.1 HashSet (C): Order is random, accepts null
 
 				2.1.1 LinkedHashSet (C): Keeps the insertion order, accepts null
 

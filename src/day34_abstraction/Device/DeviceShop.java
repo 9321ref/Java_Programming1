@@ -44,5 +44,7 @@ public class DeviceShop {
         laptop.turnOn();
         laptop.turnOff();
 
+        
+
     }
 }

@@ -1,10 +1,9 @@
 package day23_arrayList;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A4BulkOperations {
+public class BulkOperations_4 {
 
     public static void main(String[] args) {
 

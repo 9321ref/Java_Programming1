@@ -17,6 +17,14 @@ public class MapPractice5 {
         //Lambda expression ~   iterator map second short way
         map.forEach( (k, v) -> { System.out.println(k +" : "+ v); } );
 
+        /* output:
+        A02 : Khashayar
+        A03 : Tatiana
+        B03 : Nora
+        C02 : Josh
+        D02 : Abidullah
+
+         */
     }
 
 }

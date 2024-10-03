@@ -3,7 +3,7 @@ package day23_arrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A5ArrayArrayListConversion {
+public class ArrayArrayListConversion_5 {
 
     public static void main(String[] args) {
 

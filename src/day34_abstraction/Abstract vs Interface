@@ -1,0 +1,34 @@
+__________________________________________________________________
+
+Abstract class vs Interface
+
+	both:
+		cannot create objects
+		can create abstract methods
+		can create static methods
+		create an is a relation
+		can be inherited
+
+	abstract class:
+		can have constructors
+		can have instance variables
+		can have instance methods
+		can have blocks of code: static block
+		can use any access modifier
+		can only have one parent
+		static variables that are not final
+
+	interface:
+		public is the access modifier used by default
+		methods created are abstract by default
+		variables created are static final (constant)
+		multiple interface can be implemented to a class - or - inherited to another interface
+		static methods are not inherited
+		can create default methods
+
+
+	putting it all together:
+		both are useful to achieve abstraction, but interface is the preferred way because of the ability to implement many interfaces.
+		Abstract class works like a normal class for the most part, so it still follows the inheritance rules of only having one parent.
+	    Interfaces do not need to follow the rule of multiple inheritance because they are not a class and have their own properties.
+		Methods created in an interface are abstract by default,but there is two other options to create non-abstract methods which are the static and default methods

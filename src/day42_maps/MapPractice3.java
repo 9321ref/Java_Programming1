@@ -54,7 +54,7 @@ public class MapPractice3 {
         person5.put("hired_date", LocalDate.of(2022, 10, 15));
         person5.put("married", true);
 
-        // I store those 5 Map Objects into data structure (Arrays).then i do not want to use a collection
+        // I store those 5 Map Objects into data structure (Arrays).then I do not want to use a collection
 
         Map<String, Object>[] arrayOfMap = new Map[5]; // array of map // index: 0 ~ 4
         arrayOfMap[0] = person1;

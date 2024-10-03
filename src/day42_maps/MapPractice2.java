@@ -30,6 +30,8 @@ public class MapPractice2 {
         System.out.println(person2.get("name"));// output : Nora
         System.out.println(person2.get("job_title"));
 
+
+
         System.out.println("1-----------------------------------------------");
 
         Map<String, Object> person3 = new LinkedHashMap<>();
@@ -62,8 +64,12 @@ public class MapPractice2 {
         person5.put("hired_date", LocalDate.of(2022, 10, 15));
         person5.put("married", true);
 
+        System.out.println("--------------------lambda expression---------------------");
+        person5.forEach((k,v) -> System.out.println(k + " : " + v));
+
         System.out.println("2-------------------------------------------------------");
 
+        //this arrayList object only accepts Map object
         List<Map<String, Object>> listOfMaps = new ArrayList<>(); // mapsleri List icine eklyoruz
         listOfMaps.add(person1);
         listOfMaps.add(person2);

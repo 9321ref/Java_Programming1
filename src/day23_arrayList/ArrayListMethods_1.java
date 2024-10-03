@@ -3,7 +3,7 @@ package day23_arrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A1ArrayListMethods {
+public class ArrayListMethods_1 {
 
     public static void main(String[] args) {
 
